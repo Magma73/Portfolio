@@ -487,7 +487,7 @@ footer{
     .mail{font-size:var(--font-size-19px)!important;padding: 1rem 9rem 1rem 1.813rem;}
     .mentions{padding-left: 1.688rem; padding-right: 1.688rem;margin:0;}
     .menu-footer{padding-left:0rem!important;}
-    .menu-footer li{margin-left: 0.8rem!important; font-size:var(--font-size-18px)!important;}
+    .menu-footer li{margin-left: 0.8rem!important; font-size:var(--font-size-14px)!important;}
 }
 
     /* Mobiles larges + Tablettes mode portrait (600px and up)*/
