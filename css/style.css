@@ -330,9 +330,6 @@ p{
 }
     /* Cartes */
         /* Cartes : mise en page*/
-.row {
-    margin-left:0!important;
-}
 .card{
     width:100%!important;
     height:auto!important;
@@ -482,6 +479,7 @@ footer{
     .illus_titre{top:0;}
     .illustration_presentation #cv{margin-top:1.116rem!important;margin-bottom: 3rem!important;}
     .accordeon {width: calc(100% - 0rem)!important;margin: 0 auto!important;}
+    #myBtnContainer{display:flex;flex-direction:column;}
     .section3_portfolio .btn{padding: 0.75rem 0.375rem!important;}  
     .contact{background: var(--main-color);padding:1.688rem;}
     .contact p{font-size:var(--font-size-19px)!important;padding: 1rem 0;}
