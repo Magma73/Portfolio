@@ -419,40 +419,45 @@ footer{
     padding: 1rem 12.938rem 1rem 1.813rem;
     border: var(--second-color) solid;
 } 
-    /* Mentions légales et politique des cookies */
-.mentions{
-    width:100%;
-    height:auto;
+    /* Bas du footer */
+.footer_bas{
+    width: calc(100% - 26rem);
+    margin:auto;
     display:flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding:3.875rem 0;
     margin-top:2rem;
 }
-.mentions #linkedin{
-    margin-right:1.563rem;
-}
-.menu-footer{
+.icons{
     display:flex;
     flex-direction: row;
-    color:var(--dark-color);
+    align-items: center;
+    flex-grow: 6;
+}
+.icons > a {
+    padding-right:1rem;
+ }
+.mentions{
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
     list-style: none;
     margin:0!important;
-}
-.menu-footer li{
-    margin-left: 7.3rem;
+    padding: 0!important;
+}  
+.mentions li{
     font-family:var(--text-typo);
-    font-size: var(--font-size-20px)!important;
+    font-size: var(--font-size-19px)!important;
 }
-.menu-footer > li:nth-child(1) > a:nth-child(1) {
-    color: var(--dark-color);
-    text-decoration: none;
-}   
-.bi-arrow-up-circle {
+.bi-arrow-up-circle { /* flèche haut*/
     margin-right: 0.4rem;
     color: var(--font-h3-color);
-}    
+}
+
 
 /**** MENTIONS LEGALES ****/  
 .mentions_legales h2{
