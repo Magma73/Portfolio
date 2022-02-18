@@ -461,7 +461,11 @@ footer{
    
 
 /**** RESPONSIVE ****/  
-
+    /* Mobiles (300px and down) */
+@media (max-width: 400px)  {
+    .mail{font-size:var(--font-size-19px)!important;padding: 1rem 1.813rem!important;}
+}
+  
     /* Mobiles (600px and down) */
 
 @media (max-width: 600px)  {
@@ -485,9 +489,7 @@ footer{
     .contact{background: var(--main-color);padding:1.688rem;}
     .contact p{font-size:var(--font-size-19px)!important;padding: 1rem 0;}
     .mail{font-size:var(--font-size-19px)!important;padding: 1rem 9rem 1rem 1.813rem;}
-    .mentions{padding-left: 1.688rem; padding-right: 1.688rem;margin:0;}
-    .menu-footer{padding-left:0rem!important;}
-    .menu-footer li{margin-left: 0.8rem!important; font-size:var(--font-size-14px)!important;}
+    .footer_bas{width: calc(100% - 1.688rem);margin:auto;}
 }
 
     /* Mobiles larges + Tablettes mode portrait (600px and up)*/
@@ -519,8 +521,7 @@ footer{
     #illus_apropos {width:65%;}
     .contact p{font-size:var(--font-size-19px)!important;padding: 1rem 0;}
     .mail{font-size:var(--font-size-19px)!important;}
-    .mentions{padding-left: 3.5rem; padding-right: 3.5rem;}
-    .menu-footer li{margin-left: 1.2rem!important; font-size:var(--font-size-18px)!important;}
+    .footer_bas{width: calc(100% - 7rem);margin:auto;}
 }
 
     /* Tablettes mode paysage (768px and up) */
@@ -547,6 +548,7 @@ footer{
     #illus_apropos {width:70%;}
     .contact{background: url("../assets/illustrations/enveloppe-mini.png") no-repeat padding-box center/contain, var(--main-color);padding:7rem;}
     .contact p{padding: 1rem 0;}
+    .footer_bas{width: calc(100% - 14rem);margin:auto;}
 }
 
     /* Grands ordinateurs portables et de bureau (1200px and up) */
@@ -557,6 +559,7 @@ footer{
     section {width: calc(100% - 20rem);margin: auto;padding:3rem!important;margin-top:2.233rem!important;margin-bottom:4rem!important;}
     .accordeon {width: calc(100% - 20rem)!important;margin: 0 auto!important;}
     .contact{background: url("../assets/illustrations/enveloppe.png") no-repeat padding-box 95%/contain, var(--main-color);padding:10rem;}
+    .footer_bas{width: calc(100% - 20rem);margin:auto;}
 }
 
 
